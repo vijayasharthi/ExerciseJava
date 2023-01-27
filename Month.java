@@ -14,7 +14,7 @@ public class Month {
             System.out.println("31DAYS");
         }
         else if(month=="April"){
-            System.out.println("20DAYS");
+            System.out.println("30DAYS");
         }
         else if(month=="May"){
             System.out.println("31DAYS");
