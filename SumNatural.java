@@ -5,11 +5,12 @@ public class SumNatural {
         Scanner scan=new Scanner(System.in);
         System.out.println("Enter a number");
         int a=scan.nextInt();
-        int b=0;
-        for(int i=0;i<=a;i++){
-             b+=i;
-           
+        String b=Integer.toString(a);
+        int c=b.length();
+        int d=0;
+        for(int i=0;i<=c;i++){
+             d+=i;       
         }
-        System.out.println(b);
+        System.out.println(d);
     }
 }
