@@ -45,10 +45,6 @@ public class Alphabet_switch {
             break;
             default :
             System.out.println("Consonant");
-
-
-
-
         }
     }
 }

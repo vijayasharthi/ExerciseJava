@@ -7,20 +7,18 @@ public class ListArray {
         Scanner scan=new Scanner(System.in);
         ArrayList<Integer> list = new ArrayList<Integer>(100);
         for(int i=0;i<100;i++){
-            list.add(i);
+           System.out.println(list);;
         }
-        list.add(21);
-        list.add(23);
-        list.add(24);
-        list.contains(23);
-        list.set(0,99);
-        list.remove(3);
-        for(int i=0;i<=5;i++){
-            list.add(scan.nextInt());
-        }
-        for(int i=0;i<=5;i++){
-            System.out.println(list.get(i));//list[i]not work here
-        }
+        // list.add(21);
+        // list.contains(23);
+        // list.set(0,99);
+        // list.remove(3);
+        // for(int i=0;i<=5;i++){
+        //     list.add(scan.nextInt());
+        // }
+        // for(int i=0;i<=5;i++){
+        //     System.out.println(list.get(i));//list[i]not work here
+        // }
 
     }
 }
