@@ -15,7 +15,8 @@ public class Palindrome {
        else{
         System.out.println("Not palindrome");
        }
-    }}
+    }}//lexiographically (s1.compareT(s2));
+    //substring(0,1).toUppercase()+substring(1);
 
 
 
